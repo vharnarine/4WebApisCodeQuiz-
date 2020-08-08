@@ -5,7 +5,7 @@ It will also feature a clean and polished user interface and be responsive, ensu
 
 ## Screenshots of Project
 
-![Start](./assets/codeQuizIndex.png "Start")
-![Game](./assets/codeQuizGame.png "Game")
-![Scores](./assets/codeQuizHighscores.png "Scores")
+![Start](./assets/images/codeQuizIndex.png "Start")
+![Game](./assets/images/codeQuizGame.png "Game")
+![Scores](./assets/images/codeQuizHighscores.png "Scores")
 
