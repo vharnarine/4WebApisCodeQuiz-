@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Code Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <div class="container">
+        <div class="justify-center flex-column" id="game">
+            <div id="hud">
+                <div id="hud-item">
+                    <p class="hud-prefix">Question</p>
+                    <h1 class="hud-main-text" id="questionCounter"></h1>
+                </div>
+                <div id="hud-item">
+                    <p class="hud-prefix">Score</p>
+                    <h1 class="hud-main-text" id="score">--</h1>
+                </div>
+                <div id="hud-item">
+                    <p class="hud-prefix">Timer</p>
+                    <h1 class="hud-main-text" id="timer"></h1>
+                </div>
+            </div>
+        <h2 id="question">What is the answer to this question?</h2>
+        <div class="choice-container">
+            <p class="choice-prefix">A</p>
+            <p class="choice-text" data-number="1">Example 1</p>
+        </div>
+        <div class="choice-container">
+            <p class="choice-prefix">B</p>
+            <p class="choice-text" data-number="2">Example 2</p>
+        </div>
+        <div class="choice-container">
+            <p class="choice-prefix">C</p>
+            <p class="choice-text" data-number="3">Example 3</p>
+        </div>
+        <div class="choice-container">
+            <p class="choice-prefix">B</p>
+            <p class="choice-text" data-number="4">Example 4</p>
+        </div>
+       </div>
+    </div>
+    <script src="/game.js"></script>
+</body>
+</html>
